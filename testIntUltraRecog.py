@@ -4,6 +4,9 @@ from azure.cognitiveservices.vision.computervision.models import TextRecognition
 from azure.cognitiveservices.vision.computervision.models import VisualFeatureTypes
 from msrest.authentication import CognitiveServicesCredentials
 
+import spoonacular as sp
+api = sp.API("ec9eb3bb895e4078bb61b9e7b9cf05e7")
+
 from picamera import PiCamera
 from time import sleep
 
@@ -64,3 +67,29 @@ while True:
         print("'{}' with confidence {:.2f}%".format(caption.text, caption.confidence * 100))
     sleep(2)
 
+
+def putInFridge(descr):
+    with open("exampleFridgeContent.txt", "r") as f:
+        data = f.readlines()
+
+    name = api.detect_food_in_text(descr).json()['annotations'][0]['annotation']
+
+    indexFound = -1
+    for i in range(len(data)):
+        ingN = data[i].split('$')[0]
+        if ingN.lower()==name.lower():
+            indexFound = i
+
+    f = open("exampleFridgeContent.txt","w")
+    for i in range(len(data)):
+        if i == indexFound:
+            #Code here increments the amount of stuff in the fridge
+            split = data[i].split('$')
+            newAmount = int(split[1])+1
+            f.write(split[0]+'$'+str(newAmount)+'$'+split[2])
+        else:
+            f.write(data[i])
+
+    if f==-1:
+        f.write(name+'$'+str(1)+'$')
+    f.close()

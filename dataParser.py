@@ -88,8 +88,6 @@ def takeOutFromFridge(ingList):
             pass
 
     f = open("exampleFridgeContent.txt","w")
-
-
     f.close()
 
 
@@ -109,10 +107,6 @@ def removeBadUnit(unit):
 
 
 
-<<<<<<< HEAD
 
 
 promptRecipe()
-=======
-# promptRecipe()
->>>>>>> a5de40339fbf04d7188ef0b473da42183cc79496
