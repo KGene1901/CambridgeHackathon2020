@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ae21814-3157-4a65-961e-d8b270db1682" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataParser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exampleFridgeContent.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webScrape.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataParser.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataParser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampleFridgeContent.txt" beforeDir="false" afterPath="$PROJECT_DIR$/exampleFridgeContent.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recipe.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wdwsdas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spoonacular examples.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/spoonacular examples.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webScrape.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,26 +20,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/recipe.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="48" selection-end-line="1" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataParser.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" selection-end-line="1" selection-end-column="48" />
+            <state relative-caret-position="68">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Experiments 1.py">
+        <entry file="file://$PROJECT_DIR$/dataParser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="49">
+              <caret line="53" column="65" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -48,7 +39,25 @@
         <entry file="file://$PROJECT_DIR$/exampleFridgeContent.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Shopping_List.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Experiments 1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -57,14 +66,9 @@
         <entry file="file://$PROJECT_DIR$/spoonacular examples.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="1" />
+              <selected id="0" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webScrape.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -85,11 +89,11 @@
         <option value="$PROJECT_DIR$/webScrape.py" />
         <option value="$USER_HOME$/Downloads/python-client/setup.py" />
         <option value="$PROJECT_DIR$/Database stuff/generateDataBase.py" />
-        <option value="$PROJECT_DIR$/recipe.py" />
-        <option value="$PROJECT_DIR$/exampleFridgeContent.txt" />
-        <option value="$PROJECT_DIR$/spoonacular examples.ipynb" />
-        <option value="$PROJECT_DIR$/dataParser.py" />
         <option value="$PROJECT_DIR$/Experiments 1.py" />
+        <option value="$PROJECT_DIR$/recipe.py" />
+        <option value="$PROJECT_DIR$/spoonacular examples.ipynb" />
+        <option value="$PROJECT_DIR$/exampleFridgeContent.txt" />
+        <option value="$PROJECT_DIR$/dataParser.py" />
       </list>
     </option>
   </component>
@@ -132,7 +136,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Experiments 1">
+  <component name="RunManager" selected="Python.dataParser">
     <configuration name="Experiments 1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Cambridge Hack 2020" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -240,8 +244,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Experiments 1" />
         <item itemvalue="Python.dataParser" />
+        <item itemvalue="Python.Experiments 1" />
         <item itemvalue="Python.generateDataBase" />
         <item itemvalue="Python.recipe" />
         <item itemvalue="Python.setup" />
@@ -290,38 +294,45 @@
     <entry file="file://$PROJECT_DIR$/webScrape.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/recipe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="48" selection-end-line="1" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spoonacular examples.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="1" />
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recipe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shopping_List.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Experiments 1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exampleFridgeContent.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dataParser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" selection-end-line="1" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Experiments 1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="49">
+          <caret line="53" column="65" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
         </state>
       </provider>
     </entry>

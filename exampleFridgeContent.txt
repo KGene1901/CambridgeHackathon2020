@@ -1,11 +1,11 @@
-2 Carrots
-Broccoli 500g
-1 pint of milk
-mushrooms 200g
-cheese 500g
-butter 250g
-mayonaise bottle
-6 eggs
-chicken nuggets 1 packet
-1 leek
-2 onions
+Carrots$100$g
+Broccoli$500$g
+milk$1$pint
+mushrooms$200$g
+cheese$500$g
+butter$250$g
+mayonaise bottle$300$g
+eggs$6$eggs
+chicken breast$1$kg
+leek$1$
+onions$2$
