@@ -15,5 +15,5 @@ window.onload = function(){
     xmlhttp.send();
     
     var button = document.getElementById('clickButton');
-    //setTimeout(function(){button.form.submit();}, 300);
+    setTimeout(function(){button.form.submit();}, 300);
     }
