@@ -10,3 +10,47 @@ cooked bacon strips$12.0$
 dried onion$1.0$tablespoon
 monterey jack cheese$8.0$ounces
 pie crust$1.0$sheet
+baby potatoes$4.0$
+baking powder$1.5$teaspoons
+baking soda$0.25$teaspoons
+buttermilk$0.5$cups
+chicken broth$1.0$cup
+fresh chives$2.0$tablespoons
+garlic$1.0$clove
+peas$0.5$cups
+sharp cheddar$0.5$cups
+yellow onion$0.5$
+cooked bacon strips$12.0$
+dried onion$1.0$tablespoon
+monterey jack cheese$8.0$ounces
+pie crust$1.0$sheet
+broccoli florets$2.0$cups
+cooked ham$1.0$cup
+cornflakes$1.0$cup
+ground mustard$0.5$teaspoons
+sharp cheddar cheese$4.0$ounces
+swiss cheese$4.0$ounces
+white bread$12.0$slices
+zucchini$1.0$
+bay leaf$1.0$
+beef base$4.5$teaspoons
+cream cheese$8.0$ounces
+green beans$4.0$ounces
+green onions$0.75$cups
+oil packed sun dried tomatoes$0.5$cups
+red bell peppers$2.0$
+rosemary$1.0$tablespoon
+shiitake mushrooms$8.0$ounces
+thyme sprigs$12.0$
+unsalted butter$0.5$cups
+unsalted butter$1.0$cup
+whipping cream$0.25$cups
+whole chicken$3.5$pounds
+cremini mushrooms$4.0$ounces
+fresh thyme leaves$3.0$tablespoons
+garlic$2.0$cloves
+ground nutmeg$1.0$pinch
+parmesan$0.3333333333333333$cups
+puff pastry$1.0$square sheet
+unsalted butter$2.0$tablespoons
+yukon gold potato$6.0$ounces

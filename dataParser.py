@@ -63,11 +63,12 @@ def promptRecipe():
         print((str(i+1)+"."),recipes[i]['name'],"-",recipes[i]['link'])
 
     choose = int(input("Enter choice (Enter number between 1-5): "))
-    missingIngInfoList = recipes[choose]['uingList']
+    missingIngInfoList = recipes[choose-1]['uingList']
     print(recipes[choose-1]['name'],"-",recipes[choose-1]['link'])
 
     #Write down the missing ingridients to the shopping list
-    convertMissingToTXT(missingIngInfoList)
+    for i in range(5):
+        convertMissingToTXT(recipes[i]['uingList'])
 
 
 #TODO: Finish this so fridge emptied
@@ -103,5 +104,8 @@ def removeBadUnit(unit):
         return ""
     else:
         return unit
+
+
+
 
 promptRecipe()

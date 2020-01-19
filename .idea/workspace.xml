@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ae21814-3157-4a65-961e-d8b270db1682" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Adding_Cart/Shopping_List2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adding_Cart/Shopping_List.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Adding_Cart/Shopping_List.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataParser.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataParser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spoonacular examples.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/spoonacular examples.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingListNew.txt" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingListNew.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,11 +28,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dataParser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="96" column="55" selection-start-line="96" selection-start-column="55" selection-end-line="96" selection-end-column="55" />
+            <state relative-caret-position="372">
+              <caret line="103" column="17" lean-forward="true" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
               <folding>
                 <element signature="e#1382#1441#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Adding_Cart/Shopping_List2.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="41" lean-forward="true" selection-end-line="15" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -38,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/shoppingListNew.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -65,6 +77,8 @@
         <option value="$PROJECT_DIR$/recipe.py" />
         <option value="$PROJECT_DIR$/exampleFridgeContent.txt" />
         <option value="$PROJECT_DIR$/spoonacular examples.ipynb" />
+        <option value="$PROJECT_DIR$/Adding_Cart/Shopping_List.txt" />
+        <option value="$PROJECT_DIR$/shoppingListNew2.txt" />
         <option value="$PROJECT_DIR$/dataParser.py" />
         <option value="$PROJECT_DIR$/shoppingListNew.txt" />
       </list>
@@ -88,6 +102,11 @@
               <item name="Cambridge Hack 2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="Cambridge Hack 2020" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Cambridge Hack 2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cambridge Hack 2020" type="462c0819:PsiDirectoryNode" />
+              <item name="Adding_Cart" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -96,6 +115,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\eitom\Documents\Outside School or Uni\Cambridge Hack 2020\Adding_Cart" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -302,10 +326,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Adding_Cart/Shopping_List.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Adding_Cart/Shopping_List2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="41" lean-forward="true" selection-end-line="15" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dataParser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="96" column="55" selection-start-line="96" selection-start-column="55" selection-end-line="96" selection-end-column="55" />
+        <state relative-caret-position="372">
+          <caret line="103" column="17" lean-forward="true" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
           <folding>
             <element signature="e#1382#1441#0" />
           </folding>
@@ -315,7 +353,7 @@
     <entry file="file://$PROJECT_DIR$/shoppingListNew.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>
