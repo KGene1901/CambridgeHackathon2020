@@ -16,5 +16,5 @@ window.onload = function(){
 
   
     var button = document.getElementById('clickButton');
-    setTimeout(function(){button.form.submit();}, 500);
+    setTimeout(function(){button.form.submit();}, 800);
     }
