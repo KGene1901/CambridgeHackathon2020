@@ -1,4 +1,3 @@
-Item$ASIN$Name$Amount
 Carrot$B0160PQT4Y$Burgess Harvest Carrots$1kg$
 Broccoli$B0160PQFU2$Burgess Harvest Broccol$335g$
 Milk$B01G8RV8KE$Morrisons Semi Skimmed Milk British$2 pints$
