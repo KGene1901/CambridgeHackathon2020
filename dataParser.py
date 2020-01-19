@@ -67,8 +67,9 @@ def promptRecipe():
     print(recipes[choose-1]['name'],"-",recipes[choose-1]['link'])
 
     #Write down the missing ingridients to the shopping list
-    for i in range(5):
-        convertMissingToTXT(recipes[i]['uingList'])
+    convertMissingToTXT(missingIngInfoList)
+    localOrOnline = int(input("Online or local?"))
+    
 
 
 #TODO: Finish this so fridge emptied
