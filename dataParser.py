@@ -1,7 +1,7 @@
 import spoonacular as sp
 api = sp.API("ec9eb3bb895e4078bb61b9e7b9cf05e7")
 
-unwantedUnits = ['large', 'larges', 'serving', 'servings']
+unwantedUnits = ['large', 'larges', 'serving', 'servings','smalls','small']
 
 
 def loadFridgeContent():
@@ -33,14 +33,25 @@ def generateRecipes(contents):
         id = recipeJson['id']
         name = recipeJson['title']
         usedIngrJsonList = recipeJson['usedIngredients']
+        missedIngrJsonList = recipeJson['missedIngredients']
         recipeLink = api.get_recipe_information(id).json()['sourceUrl']
+
+
         ingInfoList = []
         for ingrd in usedIngrJsonList:
             ingrdUnit = ingrd['unitLong']
             ingrdName = ingrd['name']
             ingrdAmount = ingrd['amount']
             ingInfoList.append({'name':ingrdName,'amount':ingrdAmount,'unitLong':ingrdUnit})
-        recipes.append({'name': name, 'link': recipeLink,'ingList':ingInfoList})
+
+        missedIngInfoList = []
+        for ingrd in missedIngrJsonList:
+            ingrdUnit = ingrd['unitLong']
+            ingrdName = ingrd['name']
+            ingrdAmount = ingrd['amount']
+            missedIngInfoList.append({'name': ingrdName, 'amount': ingrdAmount, 'unitLong': ingrdUnit})
+
+        recipes.append({'name': name, 'link': recipeLink,'ingList':ingInfoList,'uingList':missedIngInfoList})
     return recipes
 
 
@@ -52,10 +63,14 @@ def promptRecipe():
         print((str(i+1)+"."),recipes[i]['name'],"-",recipes[i]['link'])
 
     choose = int(input("Enter choice (Enter number between 1-5): "))
+    missingIngInfoList = recipes[choose]['uingList']
     print(recipes[choose-1]['name'],"-",recipes[choose-1]['link'])
 
+    #Write down the missing ingridients to the shopping list
+    convertMissingToTXT(missingIngInfoList)
 
 
+#TODO: Finish this so fridge emptied
 def takeOutFromFridge(ingList):
     with open("exampleFridgeContent.txt", "r") as f:
         data = f.readlines()
@@ -76,7 +91,17 @@ def takeOutFromFridge(ingList):
     f.close()
 
 
+def convertMissingToTXT(missingIngInfoList):
+    f = open("shoppingListNew.txt","a")
+    for ing in missingIngInfoList:
+        f.write('\n'+ing['name']+'$'+str(ing['amount'])+'$'+removeBadUnit(ing['unitLong']))
+    f.close()
 
 
+def removeBadUnit(unit):
+    if unit in unwantedUnits:
+        return ""
+    else:
+        return unit
 
 promptRecipe()
