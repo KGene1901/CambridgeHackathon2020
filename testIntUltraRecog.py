@@ -43,6 +43,33 @@ computervision_client = ComputerVisionClient(endpoint, CognitiveServicesCredenti
 #userProfile = os.environ['userprofile']
 imagePath = "/home/pi/Desktop/image.jpg"
 #ultSonic.calculateDistance()
+
+def putInFridge(descr):
+    with open("exampleFridgeContent.txt", "r") as f:
+        data = f.readlines()
+
+
+    indexFound = -1
+    for i in range(len(data)):
+        ingN = data[i].split('$')[0]
+        if ingN.lower()==name.lower():
+            indexFound = i
+
+    f = open("exampleFridgeContent.txt","w")
+    for i in range(len(data)):
+        if i == indexFound:
+            #Code here increments the amount of stuff in the fridge
+            split = data[i].split('$')
+            newAmount = int(split[1])+1
+            f.write(split[0]+'$'+str(newAmount)+'$'+split[2])
+        else:
+            f.write(data[i])
+
+    if f==-1:
+        f.write(name+'$'+str(1)+'$')
+    f.close()
+
+
 while True:
   #ultSonic.calculateDistance()
   if(ultSonic.calculateDistance() <= 10):
@@ -65,31 +92,10 @@ while True:
     else:
       for caption in description_results.captions:
         print("'{}' with confidence {:.2f}%".format(caption.text, caption.confidence * 100))
+        name = api.detect_food_in_text(caption.text).json()['annotations'][0]['annotation'] != ""
+        if caption.confidence > 0.5 and name!="":
+            putInFridge(name)
+            print("New entry added to the fridge")
     sleep(2)
 
 
-def putInFridge(descr):
-    with open("exampleFridgeContent.txt", "r") as f:
-        data = f.readlines()
-
-    name = api.detect_food_in_text(descr).json()['annotations'][0]['annotation']
-
-    indexFound = -1
-    for i in range(len(data)):
-        ingN = data[i].split('$')[0]
-        if ingN.lower()==name.lower():
-            indexFound = i
-
-    f = open("exampleFridgeContent.txt","w")
-    for i in range(len(data)):
-        if i == indexFound:
-            #Code here increments the amount of stuff in the fridge
-            split = data[i].split('$')
-            newAmount = int(split[1])+1
-            f.write(split[0]+'$'+str(newAmount)+'$'+split[2])
-        else:
-            f.write(data[i])
-
-    if f==-1:
-        f.write(name+'$'+str(1)+'$')
-    f.close()
