@@ -69,7 +69,7 @@ def promptRecipe():
     #Write down the missing ingridients to the shopping list
     convertMissingToTXT(missingIngInfoList)
     localOrOnline = int(input("Online or local?"))
-    
+
 
 
 #TODO: Finish this so fridge emptied
@@ -105,6 +105,8 @@ def removeBadUnit(unit):
         return ""
     else:
         return unit
+
+
 
 
 
