@@ -65,6 +65,7 @@ if __name__ == '__main__':
             address = ""
 
         f.write(name)
+        f.write('\n')
         f.write(address)
        
     f.close()
