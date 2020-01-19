@@ -4,7 +4,7 @@ window.onload = function(){
     if(xmlhttp.status==200 && xmlhttp.readyState==4){    
         var words = xmlhttp.responseText.split('$');
         j=1
-        for (i = 1; i<5; i+=3){
+        for (i = 1; i<5; i+=4){
             document.getElementById('A'.concat(j)).value=(words[i]);
             document.getElementById('Q'.concat(j)).value=(1);
             j+=1
