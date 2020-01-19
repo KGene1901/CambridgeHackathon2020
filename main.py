@@ -8,7 +8,7 @@ import webbrowser
 # -----------------------------------------------------------------------------------------------------
 #Ingredients indicator and recipe finder
 
-api = sp.API("ec9eb3bb895e4078bb61b9e7b9cf05e7")
+api = sp.API("32705ed053d745d3b9cfe60f248d1ee4")
 
 unwantedUnits = ['large', 'larges', 'serving', 'servings','smalls','small']
 
@@ -74,6 +74,7 @@ def promptRecipe():
     choose = int(input("Enter choice (Enter number between 1-5): "))
     missingIngInfoList = recipes[choose-1]['uingList']
     print(recipes[choose-1]['name'],"-",recipes[choose-1]['link'])
+    enter=input(' ')
 
     #Write down the missing ingridients to the shopping list
     convertMissingToTXT(missingIngInfoList)
@@ -179,7 +180,6 @@ while (user_command != 5):
             api = GooglePlaces('AIzaSyB6VQWBlXGKUQo4LS4OIjg3GoMUHClD218')
             places = api.search_places_by_coordinate("52.204450, 0.119000", "400", "supermarket")
             output = ['name', 'formatted_address', 'international_phone_number', 'website', 'rating', 'review']
-            print("hello")
             f = open('trial.txt', 'w+')
             for place in places:
                 details = api.get_place_details(place['place_id'], output)
@@ -190,21 +190,22 @@ while (user_command != 5):
 
                 try:
                     name = details['result']['name']
+                    print(name)
                 except KeyError:
                     name = ""
 
                 try:
                     address = details['result']['formatted_address']
+                    print(address)
                 except KeyError:
                     address = ""
-
+                    
                 f.write(name)
                 f.write('\n')
                 f.write(address)
                 
             f.close()
-        
+            enter=input(" ")
 print('Exiting application')
 
         
-
